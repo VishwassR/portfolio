@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Protofolio</title>
+  <link rel="stylesheet" href="main.css">
+  <
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"> Vishwass R portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="first" id="home">
+      <div class="firstclass"> My name is <span>Vishwass r</span>
+        <p>And I am a student at <span>New Horizon College Of Engineering</span></p>
+        <p>I am <span id="element"></span> </p>
+        <a href="https://drive.google.com/file/d/1WDCp8x4z4UxIlMhIkT3mn-KmUMNUDui0/view?usp=share_link">
+          <button>Download Resume</button></a>
+      </div>
+      </section>
+    <hr>
+    <section class="second" id="about">
+      <div>
+        <h2>About Myself</h2>
+        <div class="intro">
+          <article>Hello, I'm <span>Vishwass R</span>, a passionate Electronics and communication Engineer
+            student at <span>New Horizon College of Engineering.</span> With a strong foundation
+            in problem-solving and a commitment to continuous learning,
+            I'm on a journey to explore the endless possibilities of the digital world.</article>
+          <br>
+          <article>My educational journey began at Chinmaya vidyalya and my puc in Sri Chaitanya College,
+            where I honed discipline, teamwork, and
+            leadership skills that have been invaluable throughout my academic career.</article>
+          <br>
+          <article>
+            In the realm of programming, <span>I have the grasp of python and java languages </span>,
+            enabling me to tackle and understand complex problems and algorithms.
+            Additionally, I have ventured into web development,
+            gaining proficiency in <span>HTML, CSS, and JavaScript</span>, which has allowed
+            me to create interactive and visually appealing web experiences.
+          </article>
+          <br>
+          <article>
+            I'm excited to connect with like-minded professionals,
+            collaborate on exciting projects, and contribute to the ever-evolving
+            tech landscape.and make a meaningful impact."</article>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="third" id="portfolio">
+      <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title">My skills</h2>
+          <div class="skills-content">
+            <div class="left">
+              <div class="text">Skill Set and Education</div>
+              <br>
+              <p>
+                I am currently in my 3rd year of engineering in
+                New Horizon College Of Engineering.pursuing
+                Electronics and Communication  branch.
+                I have good knowledge in python language ad java Programming
+                and to increase my knowledge in the the digital world i have also taken
+                lessons in web design technologies and have a strong basics in HTML,CSS
+                and JavaScript.
+              </p>
+            </div>
+            <div class="  right">
+              <div class="bars">
+                <div class="info">
+                  <span>HTML,CSS, JS </span>
+                  <span>50%</span>
+                </div>
+                <div class="line html"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>python </span>
+                  <span>75%</span>
+                </div>
+                <div class="line css"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Java Programming</span>
+                  <span> 90%</span>
+                </div>
+                <div class="line js"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1>Projects</h1>
+      <div class="shape">
+        <div class="vertical"><div class="title">Arduino bluetooth car</div>
+          <div class="text"> Using arduino with help of c language basics </div>
+        </div>
+        <div class="vertical"><div class="title">Brake failure indicator</div>
+          <div class="text">By using IC555 timer and mosfet
+            </div>
+         </section>
+    <div class="fourth-line">
+      <hr>
+    </div>
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form">
+        <form>
+          <label for="name">Name:
+          <input type="text" id="name" name="name" required></label>
+          
+          <label for="email">Email:
+          <input type="email" id="email" name="email" required></label>
+          
+          <label for="phone">Phone:
+          <input type="tel" id="phone" name="phone" required></label>
+          
+          <label for="message">Message:
+          <textarea id="message" name="message" rows="4" required></textarea></label>
+          <button type="submit">Send</button>
+        </form>
+        
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['python programmer', 'java programmer', 'web developer',"Electronics and Communication Engineer"],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins','sans-serif';
+    
+}
+body{
+    background-color:rgb(16, 20, 2);
+    color: white;
+}
+button{
+    margin: 40px 0px;
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color:rgb(141, 236, 153);
+    color:whitesmoke;
+    border-radius: 6px;
+    border: 2px solid white;    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(121, 168, 234);
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 1.2rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: aquamarine;
+    font-size: 1.3rem;
+}
+.left{
+    margin-left:0px;
+    padding-left: 0px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px ;
+}
+.first div{
+    width:30%;
+}
+.first div span{
+    color: rgb(226, 43, 86);
+}
+.firstclass{
+    width:40%;
+    align-items: center;
+    margin: 140px 0px;
+    font-size: 1.9rem;
+}
+
+main hr{
+    border: 0;
+    background-color: blanchedalmond;
+    height: 1.2px;
+    margin: 40px 85px;
+}
+
+.nextclass img{
+   max-width:60%;
+    margin:110px 40px;  
+    border-radius:20%;         
+}
+
+.second{
+    margin: 40px 80px;
+}
+
+div h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.intro{
+    background-color: azure;
+    border-radius: 10px;
+    margin: 20px 40px;
+    text-align: justify;
+    padding: 10px 10px;
+    box-shadow: 0 2px 6px rgba(223, 67, 96, 0.1);
+    font-size: 1.4rem;
+    color: black;
+}
+.intro span{
+    color: rgb(128, 5, 250);
+}
+.intro span:hover{
+    font-size: 1.42rem;
+}
+
+.skills .skills-content {
+    display: flex;
+    margin: 50px 0px ;
+}
+
+.skills .skills-content .column {
+    width: calc(50% - 30px);
+  }
+  
+  .skills .skills-content .left .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .skills .skills-content .right{
+    margin-left: 230px;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .skills .skills-content .left{
+    margin-left: 30px;
+    padding: 0px;
+    width: 40%;
+  }
+ 
+  .skills .skills-content .left p {
+    text-align: justify;
+    color: rgb(238, 235, 235);
+    font-size: 20px;
+  }
+  
+  .skills .skills-content .right .bars {
+    margin-bottom: 40px;
+
+  }
+  
+  .skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .skills .skills-content .right .line {
+    height: 6px;
+    width: 200%;
+    background: lightgrey;
+    position: relative;
+  }
+  
+  .skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(193, 220, 20);
+  }
+  
+  .skills-content .right .html::before {
+    width: 70%;
+  }
+  
+  .skills-content .right .css::before {
+    width: 80%;
+  }
+  .skills-content .right .js::before {
+    width: 65%;
+  }
+  .third{
+    width: fit-content;
+  }
+  .third .shape{
+    display: flex;
+    margin: 50px 250px;
+    background: whitesmoke;
+    height: 2px;
+    width: 60%;
+  }
+  .third .vertical{
+    background-color: white;
+    width: 1px;
+    height: 80px;
+    margin:0px 120px;
+  }
+  h1{
+    text-align: center;
+    font: sans-serif;
+    font-size: 30px;
+  }
+  .third .vertical .title{
+    position: relative;
+    top: 50px;
+    left: 5px;
+  }
+  .third .vertical .text{
+    position: relative;
+    top: 75px;
+    color:antiquewhite;
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .fourth-line hr{
+    margin-top:250px ;
+  }
+ 
+.contact {
+    background-color: rgb(2, 2, 54);
+    padding: 40px 0;
+    text-align: center;
+    
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:rgb(160, 225, 40);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 15px;
+  }
+  
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 20px;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #73aeed;
+  }
+  
